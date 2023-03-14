@@ -1,0 +1,185 @@
+{
+    "contractName": "Contract",
+    "abi": [
+        {
+            "inputs": [
+                {
+                    "internalType": "address",
+                    "name": "",
+                    "type": "address"
+                }
+            ],
+            "name": "balances",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "minter",
+            "outputs": [
+                {
+                    "internalType": "address",
+                    "name": "",
+                    "type": "address"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"balances\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"minter\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/gitElaminebendaas/solidityPractice/Contract.sol\":\"Contract\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/gitElaminebendaas/solidityPractice/Contract.sol\":{\"keccak256\":\"0x62413231c4b1530dc385710f6564d3426cf5a2333258f1ea83fcfb27a18273f7\",\"urls\":[\"bzz-raw://3f295419ba626edfb30312e83b3e99d1171449c357effed738be7ca6a83e421d\",\"dweb:/ipfs/Qmevpeyh9YFGVQrggwLmV9g8ttnuAy5Jo8iQD51MaeH6Lo\"]}},\"version\":1}",
+    "bytecode": "608060405234801561001057600080fd5b5060f48061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c80630754617214603757806327e235e3146066575b600080fd5b6000546049906001600160a01b031681565b6040516001600160a01b0390911681526020015b60405180910390f35b608360713660046090565b60016020526000908152604090205481565b604051908152602001605d565b60006020828403121560a157600080fd5b81356001600160a01b038116811460b757600080fd5b939250505056fea2646970667358221220912882c2b82871f20039578be1b58f9b6eabc311de3bea82b926c18b5c7f765264736f6c63430008130033",
+    "deployedBytecode": "6080604052348015600f57600080fd5b506004361060325760003560e01c80630754617214603757806327e235e3146066575b600080fd5b6000546049906001600160a01b031681565b6040516001600160a01b0390911681526020015b60405180910390f35b608360713660046090565b60016020526000908152604090205481565b604051908152602001605d565b60006020828403121560a157600080fd5b81356001600160a01b038116811460b757600080fd5b939250505056fea2646970667358221220912882c2b82871f20039578be1b58f9b6eabc311de3bea82b926c18b5c7f765264736f6c63430008130033",
+    "sourceMap": "267:114:0:-:0;;;;;;;;;;;;;;;;;;;",
+    "deployedSourceMap": "267:114:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;292:21;;;;;-1:-1:-1;;;;;292:21:0;;;;;;-1:-1:-1;;;;;178:32:1;;;160:51;;148:2;133:18;292:21:0;;;;;;;;320:41;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;659:25:1;;;647:2;632:18;320:41:0;513:177:1;222:286;281:6;334:2;322:9;313:7;309:23;305:32;302:52;;;350:1;347;340:12;302:52;376:23;;-1:-1:-1;;;;;428:31:1;;418:42;;408:70;;474:1;471;464:12;408:70;497:5;222:286;-1:-1:-1;;;222:286:1:o",
+    "sourcePath": "c:/gitElaminebendaas/solidityPractice/Contract.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.19+commit.7dd6d404"
+    },
+    "ast": {
+        "absolutePath": "c:/gitElaminebendaas/solidityPractice/Contract.sol",
+        "exportedSymbols": {
+            "Contract": [
+                8
+            ]
+        },
+        "id": 9,
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    "0.8",
+                    ".19"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "240:23:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "Contract",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 8,
+                "linearizedBaseContracts": [
+                    8
+                ],
+                "name": "Contract",
+                "nameLocation": "276:8:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": false,
+                        "functionSelector": "07546172",
+                        "id": 3,
+                        "mutability": "mutable",
+                        "name": "minter",
+                        "nameLocation": "307:6:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 8,
+                        "src": "292:21:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                        },
+                        "typeName": {
+                            "id": 2,
+                            "name": "address",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "292:7:0",
+                            "stateMutability": "nonpayable",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_address",
+                                "typeString": "address"
+                            }
+                        },
+                        "visibility": "public"
+                    },
+                    {
+                        "constant": false,
+                        "functionSelector": "27e235e3",
+                        "id": 7,
+                        "mutability": "mutable",
+                        "name": "balances",
+                        "nameLocation": "353:8:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 8,
+                        "src": "320:41:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
+                            "typeString": "mapping(address => uint256)"
+                        },
+                        "typeName": {
+                            "id": 6,
+                            "keyName": "",
+                            "keyNameLocation": "-1:-1:-1",
+                            "keyType": {
+                                "id": 4,
+                                "name": "address",
+                                "nodeType": "ElementaryTypeName",
+                                "src": "328:7:0",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_address",
+                                    "typeString": "address"
+                                }
+                            },
+                            "nodeType": "Mapping",
+                            "src": "320:25:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
+                                "typeString": "mapping(address => uint256)"
+                            },
+                            "valueName": "",
+                            "valueNameLocation": "-1:-1:-1",
+                            "valueType": {
+                                "id": 5,
+                                "name": "uint",
+                                "nodeType": "ElementaryTypeName",
+                                "src": "339:4:0",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_uint256",
+                                    "typeString": "uint256"
+                                }
+                            }
+                        },
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 9,
+                "src": "267:114:0",
+                "usedErrors": []
+            }
+        ],
+        "src": "240:143:0"
+    },
+    "functionHashes": {
+        "balances(address)": "27e235e3",
+        "minter()": "07546172"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "48800",
+            "executionCost": "99",
+            "totalCost": "48899"
+        },
+        "external": {
+            "balances(address)": "2484",
+            "minter()": "2304"
+        }
+    }
+}
