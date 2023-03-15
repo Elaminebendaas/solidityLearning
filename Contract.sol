@@ -1,13 +1,15 @@
+// SPDX-License-Identifier: GPL-3.0
 /// @title This is just for testing and learning solidity
 /// @author El-Amine Bendaas
 /// @notice this just does all sorts of stuff man
 /// @dev pretty simple stuff just read it
-//SPDX-Licence-Identifier: GPL-3.0
+
 
 pragma solidity 0.8.19;
 
 contract Contract {
     address public minter;
+    uint helooo;
     mapping(address => uint ) public balances;
         
     event Sent(address from, address to, uint amount);
@@ -15,6 +17,7 @@ contract Contract {
     constructor(){
         minter = msg.sender;
     }
+    address hello = address(0x324324);
 
     function mint(address receiver, uint amount) public {
         require(msg.sender == minter);
