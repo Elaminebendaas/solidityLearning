@@ -9,7 +9,6 @@ pragma solidity 0.8.19;
 
 contract Contract {
     address public minter;
-    uint helooo;
     mapping(address => uint ) public balances;
         
     event Sent(address from, address to, uint amount);
@@ -17,7 +16,7 @@ contract Contract {
     constructor(){
         minter = msg.sender;
     }
-    address hello = address(0x324324);
+
 
     function mint(address receiver, uint amount) public {
         require(msg.sender == minter);
